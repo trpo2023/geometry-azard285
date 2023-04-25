@@ -10,7 +10,6 @@ typedef struct Vector {
 } vector;
 
 vector findVector(point first, point second);
-
 double lengthVector(vector vec);
 float perimeterCircle(point center, double rad);
 float areaCircle(point center, double rad);
