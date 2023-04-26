@@ -1,12 +1,12 @@
 #ifndef GEO_H
 #define GEO_H
 typedef struct Point {
-  double x;
-  double y;
+    double x;
+    double y;
 } point;
 typedef struct Vector {
-  double a;
-  double b;
+    double a;
+    double b;
 } vector;
 
 vector findVector(point first, point second);
